@@ -148,6 +148,7 @@ body {
 
   .cards {
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 282px 266px;
     grid-column-gap: 30px;
     grid-row-gap: 24px;
   }
