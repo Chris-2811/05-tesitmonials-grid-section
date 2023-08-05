@@ -52,11 +52,13 @@ body {
   gap: 17px;
   align-items: center;
   margin-bottom: 18px;
+  line-height: 1;
 }
 
 .card-header p {
   margin-top: 4px;
   opacity: 0.5;
+  font-size: 11px;
 }
 
 .card-header .profile-img {
@@ -101,7 +103,7 @@ body {
 .card-3,
 .card-4 {
   background-color: #fff;
-  color: var(--color-primary-very-dark-blackish-blue);
+  color: #48556a;
 }
 
 .card-2 .profile-img,
@@ -142,6 +144,12 @@ body {
   .card-4 .lead-text,
   .card-5 .lead-text {
     margin-bottom: 24px;
+  }
+
+  .card-3,
+  .card-4,
+  .card-5 {
+    padding: 26px 32px;
   }
 
   .card-1 .lead-text {
