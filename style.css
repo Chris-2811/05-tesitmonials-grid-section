@@ -22,6 +22,10 @@ img {
   max-width: 100%;
 }
 
+h3 {
+  font-size: 13px;
+}
+
 body {
   background-color: #ecf2f8;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -61,12 +65,20 @@ body {
   font-size: 11px;
 }
 
-.card-header .profile-img {
+.card-1 .card-header .profile-img,
+.card-5 .card-header .profile-img {
   border-radius: 50%;
-  width: 28px;
-  height: 28px;
+  height: 32px;
+  width: 32px;
   border: 2px solid #a775f1;
   overflow: hidden;
+}
+
+.card-header .profile-img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 28px;
+  width: 28px;
 }
 
 .card .lead-text {
